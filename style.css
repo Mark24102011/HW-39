@@ -1,0 +1,80 @@
+*{
+    a{
+        text-decoration: none;
+    }
+}
+.navbar-brand{
+    background: url(/f48a98e109ba41311a8dbd0bbb44ad65.png) no-repeat center/cover;
+    padding: 30px;
+}
+.nav-link{
+    color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.bg-body-tertiary{
+    background: yellow !important;
+}
+.me-2{
+    background: black;
+}
+.me-2::-webkit-input-placeholder {
+    color: #fff; }
+    .btn-outline-success {
+        --bs-btn-color: black;
+        --bs-btn-border-color: black;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: black;
+        --bs-btn-hover-border-color: black;
+        --bs-btn-focus-shadow-rgb: 25, 135, 84;
+        --bs-btn-active-color: yellow;
+        --bs-btn-active-bg: black;
+        --bs-btn-active-border-color: black;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: black;
+        --bs-btn-disabled-bg: transparent;
+        --bs-btn-disabled-border-color: black;
+        --bs-gradient: none;
+    }
+.card{
+    margin-top: 5%;
+    width: 26%;
+    height: 60vh;
+}
+.card-img-top{
+    padding-top: 7%;
+}
+.row{
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.footer{
+    height: 40vh;
+    background: black;
+    opacity: .7;
+}
+.number{
+    width: 21%;
+}
+.numbers{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.soc{
+    width: 16%;
+}
+.soces{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.span{
+    color: #888787;
+}
+.h3{
+    margin-bottom: 10%;
+    color: #fff;
+}
+.contacts{
+    padding-top: 10%;
+}
